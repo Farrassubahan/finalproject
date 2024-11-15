@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap");
+
+
+
+:root {
+  --success: #17a598;
+  --success-light: #e8fffd;
+  --blue-light: #e8faff;
+  --warning: #ffb600;
+  --dark: #242b2f;
+  --hijaumuda: #3fffa2;
+  --birumuda: #2d78db;
+  --abumuda: #ebebeb;
+  
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.font-bs {
+  font-family: "Berkshire Swash", serif;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 10px;
+
+}
+/* botton */
+.btn{
+    font-size: 10px;
+    font-weight: 600;
+    padding: 8px 25px;
+}
+.btn-outline-success{
+  background-color:white ;
+  color: var(--success);
+  border: 4px solid var(--success-light);
+}
+
+.btn-success{
+    background-color: var(--success) ;
+    color: #e8faff;
+    border: 1px solid var(--success);
+}
+
+.btn-light-success{
+    background-color: var(--blue-light);
+    color: var(--success);
+    border: 1px solid var(--success);
+
+}
+.tombol{
+  /* color: rgb(42, 174, 176); */
+  color: #242b2f;
+}
+
+.btn-light-warning{
+  background-color: var(--warning);
+  color: var(--success);
+  border: 1px solid var(--success);
+}
+/* botton end */
+
+/* kanan jadwal-jadwal */
+.bg-light-success{
+  background-color: var(--success-light );
+
+}
+/* kanan jadwal-jadwal */
