@@ -28,7 +28,7 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                     </li>
-                    
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pendidikan</a>
                     </li>
@@ -42,6 +42,7 @@
     <!-- navbarend -->
 
     <!-- welcome -->
+
     <section>
         <div class="container-fluid py-5">
             <div class="">
@@ -66,163 +67,164 @@
     </section>
 
     <!-- jadwal1 -->
-    <section>
-        <div class="container-fluid py-5">
-            <div class="row">
-                <!-- caroselslide -->
-                <div class="col-lg-5 col-12 p-0 shadow" style="height: 250px;">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../imgfp/fotobocilngaji.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../imgfp/fotobocilngaji1.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- caroselslide end -->
-                <div class="col-lg-6 col-12 px-5 py-5">
-                    <h1 class="display-6 fw-bold font-bs1 lh-2 mb-4">
-                        1. Pengajian Rutin Anak-anak
-                    </h1>
-                    <div class="lead mb-3">
-                        Setiap malam pada jam 18:00-20:00 WIB, dilaksanakan kegiatan belajar mengaji anak-anak hingga remaja.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- jadwal1end -->
-
-    <!-- jadwal2 -->
-    <section>
-        <div class="container-fluid py-5">
-            <div class="row flex-lg-row-reverse">
-                <!-- caroselslide -->
-                <div class="col-lg-5 col-12 p-0 shadow" style="height: 400px;">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner" style="height: 100%;">
-                            <div class="carousel-item active">
-                                <img src="../imgfp/73778109-6790-44d3-ba36-f3d0fb2cf95a.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../imgfp/88023df6-b539-4fbe-b076-0a84857bc18a.jpg" class="d-block w-100" alt="...">
+        <section>
+            <div class="container-fluid py-5">
+                <div class="row">
+                    <!-- caroselslide -->
+                    <div class="col-lg-5 col-12 p-0 shadow" style="height: 250px;">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../imgfp/fotobocilngaji.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imgfp/fotobocilngaji1.jpeg" class="d-block w-100" alt="...">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- caroselslide end -->
-                <div class="col-lg-6 col-12 px-5 py-5">
-                    <h1 class="display-6 fw-bold font-bs1 lh-2 mb-4">
-                        2. Kegiatan Manakib
-                    </h1>
-                    <div class="lead mb-3">
-                        Kegiatan Manaqib diadakan setiap tanggal 11 bulan Hijriah, yang dihadiri oleh para bapak-bapak dan anak-anak remaja. Acara ini dimulai pada pukul 21:00 WIB hingga selesai. Dalam acara ini, peserta bersama-sama mengikuti pembacaan Manaqib yang bertujuan untuk mengenang dan meneladani kehidupan para ulama serta meningkatkan kecintaan kepada Nabi Muhammad SAW. Kegiatan ini diadakan dengan suasana yang penuh hikmat dan kekhusyukan, serta diakhiri dengan doa bersama untuk kebaikan umat.
-
-                        Selain itu, kegiatan Manaqib juga menjadi ajang silaturahmi antar jamaah, mempererat ukhuwah islamiyah, dan memperdalam ilmu agama yang bermanfaat. Setiap bulan, kegiatan ini menjadi momen yang ditunggu-tunggu oleh para jamaah, baik yang muda maupun yang tua.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- jadwal2end -->
-    <!-- jadwal3 -->
-    <section>
-        <div class="container-fluid py-5">
-            <div class="row ">
-                <!-- caroselslide -->
-                <div class="col-lg-5 col-12 p-0 shadow" style="height: 400px;">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner" style="height: 100%;">
-                            <div class="carousel-item active">
-                                <img src="../imgfp/73778109-6790-44d3-ba36-f3d0fb2cf95a.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../imgfp/88023df6-b539-4fbe-b076-0a84857bc18a.jpg" class="d-block w-100" alt="...">
-                            </div>
+                    <!-- caroselslide end -->
+                    <div class="col-lg-6 col-12 px-5 py-5">
+                        <h1 class="display-6 fw-bold font-bs1 lh-2 mb-4">
+                            1. Pengajian Rutin Anak-anak
+                        </h1>
+                        <div class="lead mb-3">
+                            Setiap malam pada jam 18:00-20:00 WIB, dilaksanakan kegiatan belajar mengaji anak-anak hingga remaja.
                         </div>
                     </div>
                 </div>
-                <!-- caroselslide end -->
-                <div class="col-lg-6 col-12 px-5 py-5">
-                    <h1 class="display-6 fw-bold font-bs1 lh-2 mb-4">
-                        3. Pengajian Ibu-Ibu
-                    </h1>
-                    <div class="lead mb-3">
-                        Pengajian ibu-ibu dilaksanakan setiap Rabu pagi, mulai pukul 07:00 hingga 09:30 WIB. Kegiatan ini dihadiri oleh ibu-ibu dari berbagai kalangan, yang berkumpul untuk mendalami ilmu agama dan mempererat tali silaturahmi. Dalam pengajian ini, berbagai materi bermanfaat dibahas, seperti tafsir Al-Qur’an, hadis, serta kiat-kiat menjadi ibu yang baik dan bermanfaat untuk keluarga dan masyarakat.
-
-                        Selain menambah wawasan keagamaan, pengajian ini juga menjadi tempat untuk saling berbagi pengalaman, memberikan dukungan, dan memperkuat ukhuwah antar sesama ibu-ibu. Kegiatan ini berlangsung dengan suasana yang penuh keakraban dan semangat untuk terus belajar, memperbaiki diri, dan mendekatkan diri kepada Allah SWT.
-                    </div>
-                </div>
             </div>
-        </div>
-    </section>
-    <!-- jadwal3end -->
-    <!-- jadwal4 -->
-    <section>
-        <div class="container-fluid py-5">
-            <div class="row flex-lg-row-reverse">
-                <!-- caroselslide -->
-                <div class="col-lg-5 col-12 p-0 shadow" style="height: 400px;">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner" style="height: 100%;">
-                            <div class="carousel-item active">
-                                <img src="../imgfp/73778109-6790-44d3-ba36-f3d0fb2cf95a.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../imgfp/88023df6-b539-4fbe-b076-0a84857bc18a.jpg" class="d-block w-100" alt="...">
+        </section>
+        <!-- jadwal1end -->
+
+        <!-- jadwal2 -->
+        <section>
+            <div class="container-fluid py-5">
+                <div class="row flex-lg-row-reverse">
+                    <!-- caroselslide -->
+                    <div class="col-lg-5 col-12 p-0 shadow" style="height: 400px;">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner" style="height: 100%;">
+                                <div class="carousel-item active">
+                                    <img src="../imgfp/73778109-6790-44d3-ba36-f3d0fb2cf95a.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imgfp/88023df6-b539-4fbe-b076-0a84857bc18a.jpg" class="d-block w-100" alt="...">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- caroselslide end -->
-                <div class="col-lg-6 col-12 px-5 py-5">
-                    <h1 class="display-6 fw-bold font-bs1 lh-2 mb-4">
-                        4. Yasinan Malam jum'at
-                    </h1>
-                    <div class="lead mb-3">
-                        Pengajian Yasinan dilaksanakan setiap malam Jumat, mulai pukul 18:30 hingga 20:00 WIB. Kegiatan ini diikuti oleh para jamaah untuk bersama-sama membaca Surah Yasin dan doa-doa lainnya yang bertujuan untuk memperoleh berkah, mendekatkan diri kepada Allah SWT, serta mendoakan orang-orang yang telah berpulang.
+                    <!-- caroselslide end -->
+                    <div class="col-lg-6 col-12 px-5 py-5">
+                        <h1 class="display-6 fw-bold font-bs1 lh-2 mb-4">
+                            2. Kegiatan Manakib
+                        </h1>
+                        <div class="lead mb-3">
+                            Kegiatan Manaqib diadakan setiap tanggal 11 bulan Hijriah, yang dihadiri oleh para bapak-bapak dan anak-anak remaja. Acara ini dimulai pada pukul 21:00 WIB hingga selesai. Dalam acara ini, peserta bersama-sama mengikuti pembacaan Manaqib yang bertujuan untuk mengenang dan meneladani kehidupan para ulama serta meningkatkan kecintaan kepada Nabi Muhammad SAW. Kegiatan ini diadakan dengan suasana yang penuh hikmat dan kekhusyukan, serta diakhiri dengan doa bersama untuk kebaikan umat.
 
-                        Kegiatan ini dilaksanakan dengan suasana yang khusyuk dan penuh kekhusyukan, di mana setiap peserta turut berdoa untuk kebaikan dunia dan akhirat. Yasinan malam Jumat menjadi momen penting untuk memperbarui niat baik, meningkatkan keimanan, serta mempererat hubungan antar jamaah yang saling mendukung dalam kebaikan.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- jadwal4end -->
-    <!-- jadwal5 -->
-    <section>
-        <div class="container-fluid py-5">
-            <div class="row     ">
-                <!-- caroselslide -->
-                <div class="col-lg-5 col-12 p-0 shadow" style="height: 400px;">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner" style="height: 100%;">
-                            <div class="carousel-item active">
-                                <img src="../imgfp/fotoyasinan.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../imgfp/fotoyasinan1.jpg" class="d-block w-100" alt="...">
-                            </div>
+                            Selain itu, kegiatan Manaqib juga menjadi ajang silaturahmi antar jamaah, mempererat ukhuwah islamiyah, dan memperdalam ilmu agama yang bermanfaat. Setiap bulan, kegiatan ini menjadi momen yang ditunggu-tunggu oleh para jamaah, baik yang muda maupun yang tua.
                         </div>
                     </div>
                 </div>
-                <!-- caroselslide end -->
-                <div class="col-lg-6 col-12 px-5 py-5">
-                    <h1 class="display-6 fw-bold font-bs1 lh-2 mb-4">
-                        5. Rutinan Sholawat
-                    </h1>
-                    <div class="lead mb-3">
-                        Rutinan Sholawat dilaksanakan setiap minggu malam Senin, mulai pukul 21:00 WIB hingga selesai. Kegiatan ini dihadiri oleh jamaah yang dengan penuh cinta dan kekhusyukan membaca sholawat atas Nabi Muhammad SAW. Kegiatan ini bertujuan untuk memohon keberkahan, keselamatan, dan syafaat dari Nabi Muhammad SAW serta untuk memperkuat ikatan ukhuwah islamiyah di antara para peserta.
+            </div>
+        </section>
+        <!-- jadwal2end -->
+        <!-- jadwal3 -->
+        <section>
+            <div class="container-fluid py-5">
+                <div class="row ">
+                    <!-- caroselslide -->
+                    <div class="col-lg-5 col-12 p-0 shadow" style="height: 400px;">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner" style="height: 100%;">
+                                <div class="carousel-item active">
+                                    <img src="../imgfp/73778109-6790-44d3-ba36-f3d0fb2cf95a.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imgfp/88023df6-b539-4fbe-b076-0a84857bc18a.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- caroselslide end -->
+                    <div class="col-lg-6 col-12 px-5 py-5">
+                        <h1 class="display-6 fw-bold font-bs1 lh-2 mb-4">
+                            3. Pengajian Ibu-Ibu
+                        </h1>
+                        <div class="lead mb-3">
+                            Pengajian ibu-ibu dilaksanakan setiap Rabu pagi, mulai pukul 07:00 hingga 09:30 WIB. Kegiatan ini dihadiri oleh ibu-ibu dari berbagai kalangan, yang berkumpul untuk mendalami ilmu agama dan mempererat tali silaturahmi. Dalam pengajian ini, berbagai materi bermanfaat dibahas, seperti tafsir Al-Qur’an, hadis, serta kiat-kiat menjadi ibu yang baik dan bermanfaat untuk keluarga dan masyarakat.
 
-                        Selama kegiatan, suasana penuh dengan zikir dan doa yang dipanjatkan dengan harapan mendapatkan rahmat dan ampunan Allah SWT. Rotinan sholawat ini menjadi ajang bagi jamaah untuk memperbanyak doa, mempererat tali silaturahmi, serta meningkatkan kecintaan kepada Rasulullah SAW. Setiap minggunya, acara ini selalu dinanti dan diikuti dengan penuh semangat oleh para jamaah.
+                            Selain menambah wawasan keagamaan, pengajian ini juga menjadi tempat untuk saling berbagi pengalaman, memberikan dukungan, dan memperkuat ukhuwah antar sesama ibu-ibu. Kegiatan ini berlangsung dengan suasana yang penuh keakraban dan semangat untuk terus belajar, memperbaiki diri, dan mendekatkan diri kepada Allah SWT.
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- jadwal3end -->
+        <!-- jadwal4 -->
+        <section>
+            <div class="container-fluid py-5">
+                <div class="row flex-lg-row-reverse">
+                    <!-- caroselslide -->
+                    <div class="col-lg-5 col-12 p-0 shadow" style="height: 400px;">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner" style="height: 100%;">
+                                <div class="carousel-item active">
+                                    <img src="../imgfp/73778109-6790-44d3-ba36-f3d0fb2cf95a.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imgfp/88023df6-b539-4fbe-b076-0a84857bc18a.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- caroselslide end -->
+                    <div class="col-lg-6 col-12 px-5 py-5">
+                        <h1 class="display-6 fw-bold font-bs1 lh-2 mb-4">
+                            4. Yasinan Malam jum'at
+                        </h1>
+                        <div class="lead mb-3">
+                            Pengajian Yasinan dilaksanakan setiap malam Jumat, mulai pukul 18:30 hingga 20:00 WIB. Kegiatan ini diikuti oleh para jamaah untuk bersama-sama membaca Surah Yasin dan doa-doa lainnya yang bertujuan untuk memperoleh berkah, mendekatkan diri kepada Allah SWT, serta mendoakan orang-orang yang telah berpulang.
+
+                            Kegiatan ini dilaksanakan dengan suasana yang khusyuk dan penuh kekhusyukan, di mana setiap peserta turut berdoa untuk kebaikan dunia dan akhirat. Yasinan malam Jumat menjadi momen penting untuk memperbarui niat baik, meningkatkan keimanan, serta mempererat hubungan antar jamaah yang saling mendukung dalam kebaikan.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- jadwal4end -->
+        <!-- jadwal5 -->
+        <section>
+            <div class="container-fluid py-5">
+                <div class="row     ">
+                    <!-- caroselslide -->
+                    <div class="col-lg-5 col-12 p-0 shadow" style="height: 400px;">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner" style="height: 100%;">
+                                <div class="carousel-item active">
+                                    <img src="../imgfp/fotoyasinan.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imgfp/fotoyasinan1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- caroselslide end -->
+                    <div class="col-lg-6 col-12 px-5 py-5">
+                        <h1 class="display-6 fw-bold font-bs1 lh-2 mb-4">
+                            5. Rutinan Sholawat
+                        </h1>
+                        <div class="lead mb-3">
+                            Rutinan Sholawat dilaksanakan setiap minggu malam Senin, mulai pukul 21:00 WIB hingga selesai. Kegiatan ini dihadiri oleh jamaah yang dengan penuh cinta dan kekhusyukan membaca sholawat atas Nabi Muhammad SAW. Kegiatan ini bertujuan untuk memohon keberkahan, keselamatan, dan syafaat dari Nabi Muhammad SAW serta untuk memperkuat ikatan ukhuwah islamiyah di antara para peserta.
+
+                            Selama kegiatan, suasana penuh dengan zikir dan doa yang dipanjatkan dengan harapan mendapatkan rahmat dan ampunan Allah SWT. Rotinan sholawat ini menjadi ajang bagi jamaah untuk memperbanyak doa, mempererat tali silaturahmi, serta meningkatkan kecintaan kepada Rasulullah SAW. Setiap minggunya, acara ini selalu dinanti dan diikuti dengan penuh semangat oleh para jamaah.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
     <!-- jadwal3end -->
 
     <!-- jadwalend -->
