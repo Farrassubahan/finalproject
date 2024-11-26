@@ -1,4 +1,4 @@
-<?php 
+<?php
 include '../db-admin/conectdb.php'
 ?>
 
@@ -46,6 +46,11 @@ include '../db-admin/conectdb.php'
                         <label for="image" class="form-label">Gambar</label>
                         <input type="file" class="form-control" id="image" name="image">
                     </div>
+                    <div class="mb-3">
+                        <label for="recipient_account" class="form-label">Nomor Rekening Penerima</label>
+                        <input type="text" class="form-control" id="recipient_account" name="recipient_account" required>
+                    </div>
+
                     <button id="tombol-kampanye" type="submit" class="btn btn-success">Simpan Kampanye</button>
 
                 </form>
@@ -61,11 +66,12 @@ include '../db-admin/conectdb.php'
                             <th>Target</th>
                             <th>Terkumpul</th>
                             <th>Gambar</th>
+                            <th>Norekening</th>
                             <th>Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
-                        
+
                         <?php foreach ($campaigns as $campaign): ?>
                             <tr>
                                 <td><?php echo $campaign['id']; ?></td>
@@ -74,15 +80,17 @@ include '../db-admin/conectdb.php'
                                 <td>Rp<?php echo number_format($campaign['target_amount'], 0, ',', '.'); ?></td>
                                 <td>Rp<?php echo number_format($campaign['collected_amount'], 0, ',', '.'); ?></td>
                                 <td><img src="<?php echo $campaign['image']; ?>" width="50"></td>
+                                <td><?php echo $campaign['recipient_account']; ?></td>
                                 <td>
                                     <button class="btn btn-primary btn-sm edit-btn"
                                         data-id="<?php echo $campaign['id']; ?>"
                                         data-title="<?php echo $campaign['title']; ?>"
                                         data-description="<?php echo $campaign['description']; ?>"
-                                        data-target="<?php echo $campaign['target_amount']; ?>">
+                                        data-target="<?php echo $campaign['target_amount']; ?>"
+                                        data-recipient="<?php echo $campaign['recipient_account']; ?>">
                                         Edit
                                     </button>
-                                    <a href="?delete=<?php echo $campaign['id']; ?>" id="tombol-kampanye" class="btn btn-danger btn-sm">Hapus</a>
+                                    <a href="?delete=<?php echo $campaign['id']; ?>" id="hapus-kampanye" class="btn btn-danger btn-sm">Hapus</a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>
@@ -98,6 +106,7 @@ include '../db-admin/conectdb.php'
                         document.getElementById('title').value = this.dataset.title;
                         document.getElementById('description').value = this.dataset.description;
                         document.getElementById('target_amount').value = this.dataset.target;
+                        document.getElementById('recipient_account').value = this.dataset.recipient;
                     });
                 });
             </script>

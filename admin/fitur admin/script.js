@@ -105,3 +105,42 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   }
 });
+
+// tombol hapus kampanye
+document.addEventListener("DOMContentLoaded", function () {
+  const saveButton = document.getElementById("hapus-kampanye");
+
+  if (saveButton) {
+      saveButton.addEventListener("click", function (e) {
+          e.preventDefault(); // Mencegah pengiriman form atau refresh halaman
+
+          // Menampilkan SweetAlert konfirmasi
+          Swal.fire({
+              title: "Apakah Anda yakin?",
+              text: "Dengan perbubahan yang anda buat?.",
+              icon: "warning",
+              showCancelButton: true,
+              confirmButtonColor: "#3085d6",
+              cancelButtonColor: "#d33",
+              confirmButtonText: "Ya, Simpan Kampanye",
+              cancelButtonText: "Batal"
+          }).then((result) => {
+              if (result.isConfirmed) {
+                  // Menampilkan SweetAlert success jika konfirmasi
+                  Swal.fire({
+                      title: "Berhasil!",
+                      text: "Kampanye berhasil disimpan.",
+                      icon: "success",
+                      timer: 2000,
+                      showConfirmButton: false
+                  }).then(() => {
+                    // window.location.href = "../login.php";
+                      // Lakukan proses pengiriman form atau simpan data di sini
+                      // Misalnya dengan AJAX atau mengirim form tanpa reload halaman
+                      // document.querySelector('form').submit(); // Mengirim form secara manual
+                  });
+              }
+          });
+      });
+  }
+});
